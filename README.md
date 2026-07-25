@@ -17,9 +17,9 @@ Open `site.config.js` and add your real links:
 
 ```js
 window.SITE_CONFIG = {
-  email: "you@example.com",
-  linkedin: "https://www.linkedin.com/in/your-profile",
-  github: "https://github.com/your-account"
+  email: "davesammut@gmail.com",
+  linkedin: "https://www.linkedin.com/in/dave-sammut-2559453/",
+  github: "https://github.com/davesammut"
 };
 ```
 
