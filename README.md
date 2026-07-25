@@ -1,15 +1,24 @@
 # The Good Consultant website
 
-A static, responsive website ready for GitHub Pages.
+A static, responsive website ready for GitHub Pages — the personal advisory
+site for Dave Sammut, independent technology advisor to founders, investors,
+and CTOs.
 
 ## Files
 
 - `index.html` — homepage
+- `speaking.html` — talks, podcasts, workshops, and leadership sessions
 - `styles.css` — all styling
 - `script.js` — navigation, animations, and link behaviour
 - `site.config.js` — your email, LinkedIn, and GitHub links
 - `posts/` — simple static article pages
 - `assets/favicon.svg` — site icon
+- `robots.txt`, `sitemap.xml` — search engine discovery
+
+## Placeholder content to replace before publishing
+
+- **Testimonials** (`index.html`, `#testimonials`) — illustrative quotes only.
+- **Speaking** (`speaking.html`) — illustrative talks, podcasts, and workshops only.
 
 ## Personalise it
 
