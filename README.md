@@ -2,22 +2,41 @@
 
 A static, responsive website ready for GitHub Pages — the personal advisory
 site for Dave Sammut, independent technology advisor to founders, investors,
-and CTOs.
+boards, and CTOs. Positioned as independent judgement, not delivery — it
+intentionally does not market architecture, delivery, or transformation
+services.
 
 ## Files
 
 - `index.html` — homepage
 - `speaking.html` — talks, podcasts, workshops, and leadership sessions
+- `book.html` — the living manuscript for *The Good Consultant*
+- `book/` — full chapter drafts (currently just `fire-seeking.html`)
 - `styles.css` — all styling
 - `script.js` — navigation, animations, and link behaviour
 - `site.config.js` — your email, LinkedIn, and GitHub links
-- `posts/` — simple static article pages
+- `posts/` — Thinking: short, independent essays (a notebook, not a blog)
 - `assets/favicon.svg` — site icon
 - `robots.txt`, `sitemap.xml` — search engine discovery
 
 ## Placeholder content to replace before publishing
 
 - **Speaking** (`speaking.html`) — illustrative talks, podcasts, and workshops only.
+
+## Thinking vs. the Book
+
+These are deliberately separate:
+
+- **Thinking** (`posts/`) is a collection of short, independent essays —
+  observations, stories, and patterns. They are not chapters and don't need
+  to connect to each other.
+- **The Book** (`book.html` + `book/`) is a single structured manuscript,
+  *The Good Consultant*, written and published chapter by chapter. Every
+  chapter follows the same five-part rhythm: Story → Observation → Principle
+  → Approach → Reflection (see `book/fire-seeking.html` for the pattern).
+  `book.html` lists all 16 working chapter titles as a living manuscript —
+  update each entry's status (`Notes only` → `Early draft` → linked) as
+  chapters get written, rather than treating this as a changelog.
 
 ## Personalise it
 
@@ -56,4 +75,6 @@ Then configure your GoDaddy DNS records to point to GitHub Pages. GitHub provide
 
 ## Notes
 
-The three article pages are draft starter content. Replace or expand them before publishing.
+The Thinking articles and the Fire Seeking chapter are real starter content,
+written in the intended voice — expand the notebook and the manuscript over
+time rather than treating either as finished.

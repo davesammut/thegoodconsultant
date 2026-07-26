@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A diagram is a hypothesis about a system, not a description of it. Treating it as one changes what you trust." />
+  <title>Why architecture diagrams lie — The Good Consultant</title>
+  <link rel="canonical" href="https://thegoodconsultant.com/posts/architecture-diagrams-lie.html" />
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark">GC</span>
+        <span class="brand-text">The Good Consultant</span>
+      </a>
+      <a class="back-link" href="index.html">All articles</a>
+    </div>
+  </header>
+  <main class="container article-page">
+    <p class="eyebrow">Notes from the field</p>
+    <h1>Why architecture diagrams lie</h1>
+    <p class="meta">4 min read</p>
+
+<p class="large-copy">Every diagram I've ever been handed on day one was wrong by day two. Not because anyone was careless. Because a diagram describes an intention, and the system has already moved on.</p>
+<p>This isn't a complaint about documentation discipline. It's a pattern worth noticing, because of what it implies about trust.</p>
+<h2>A diagram is a claim, not a fact</h2>
+<p>A diagram is somebody's best understanding of the system, at the moment they drew it, simplified enough to fit on a slide. That's a reasonable thing for it to be. The trouble starts when it gets treated as a fact rather than a claim — something to build a decision on rather than something to test.</p>
+<p>The gap between the diagram and the running system isn't usually where anyone lied. It's where the system quietly changed, and nobody updated the picture, because updating the picture was never anyone's job.</p>
+<h2>What actually tells the truth</h2>
+<p>The system tells the truth about itself constantly, if you're willing to look at it directly: the logs, the traffic, the on-call history, the code path that actually executes under load. None of it is as tidy as a diagram. All of it is more honest.</p>
+<p>Good technical judgement leans on that evidence first, and treats the diagram as a useful starting hypothesis rather than a verdict.</p>
+<h2>The reframe</h2>
+<p>A diagram is a hypothesis about the system, not a description of it. Treat it as one and it stops lying to you — because you stop expecting it to tell you something it was never built to know.</p>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© The Good Consultant</p>
+      <a class="back-link" href="../index.html">Back to home</a>
+    </div>
+  </footer>
+</body>
+</html>
