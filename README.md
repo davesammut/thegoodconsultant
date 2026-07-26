@@ -33,9 +33,13 @@ These are deliberately separate:
   observations, stories, and patterns. They are not chapters and don't need
   to connect to each other.
 - **The Book** (`book.html` + `book/`) is a single structured manuscript,
-  *The Good Consultant*, written and published chapter by chapter. Most
-  chapters follow the same five-part rhythm: Story → Observation → Principle
-  → Approach → Reflection (see `book/fire-seeking.html`) — but that's a
+  *The Good Consultant*, organised as a five-part journey (Becoming → Seeing
+  → Influencing → The Craft → Leaving), not a reference list. Each chapter
+  has a compelling title plus, where the title doesn't already say it, an
+  italic subtitle naming the underlying concept (e.g. "Trust Is Your First
+  Deliverable" / *Trust*) and a guiding question it answers. Most chapters
+  follow the same five-part rhythm: Story → Observation → Principle →
+  Approach → Reflection (see `book/fire-seeking.html`) — but that's a
   pattern, not a rule; `book/storytelling.html` is a straight essay, and
   that's fine too.
   `book.html` lists all 17 working chapter titles as a living manuscript —
