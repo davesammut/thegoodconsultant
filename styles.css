@@ -338,31 +338,6 @@ ul { padding-left: 1.2rem; }
 .stat-label { color: var(--muted); margin: 0; font-size: .98rem; }
 .stat-label a { color: var(--accent-dark); font-weight: 600; }
 
-.testimonial-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.25rem;
-}
-.testimonial-card {
-  margin: 0;
-  padding: 2rem;
-  border-radius: var(--radius);
-  background: white;
-  border: 1px solid var(--line);
-}
-.testimonial-card blockquote {
-  margin: 0 0 1.25rem;
-  font-family: "Manrope", system-ui, sans-serif;
-  font-size: 1.15rem;
-  line-height: 1.45;
-  letter-spacing: -0.01em;
-}
-.testimonial-card figcaption {
-  color: var(--muted);
-  font-size: .92rem;
-  font-weight: 600;
-}
-
 .about-grid {
   display: grid;
   grid-template-columns: .55fr 1.45fr;

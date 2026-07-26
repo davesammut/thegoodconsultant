@@ -17,7 +17,6 @@ and CTOs.
 
 ## Placeholder content to replace before publishing
 
-- **Testimonials** (`index.html`, `#testimonials`) — illustrative quotes only.
 - **Speaking** (`speaking.html`) — illustrative talks, podcasts, and workshops only.
 
 ## Personalise it
