@@ -13,7 +13,7 @@ services.
 - `index.html` — homepage
 - `speaking.html` — talks, podcasts, workshops, and leadership sessions
 - `book.html` — the living manuscript for *The Good Consultant*
-- `book/` — full chapter drafts (currently just `fire-seeking.html`)
+- `book/` — full chapter drafts (currently `fire-seeking.html` and `storytelling.html`)
 - `styles.css` — all styling
 - `script.js` — navigation, animations, and link behaviour
 - `site.config.js` — your email, LinkedIn, and GitHub links
@@ -33,10 +33,12 @@ These are deliberately separate:
   observations, stories, and patterns. They are not chapters and don't need
   to connect to each other.
 - **The Book** (`book.html` + `book/`) is a single structured manuscript,
-  *The Good Consultant*, written and published chapter by chapter. Every
-  chapter follows the same five-part rhythm: Story → Observation → Principle
-  → Approach → Reflection (see `book/fire-seeking.html` for the pattern).
-  `book.html` lists all 16 working chapter titles as a living manuscript —
+  *The Good Consultant*, written and published chapter by chapter. Most
+  chapters follow the same five-part rhythm: Story → Observation → Principle
+  → Approach → Reflection (see `book/fire-seeking.html`) — but that's a
+  pattern, not a rule; `book/storytelling.html` is a straight essay, and
+  that's fine too.
+  `book.html` lists all 17 working chapter titles as a living manuscript —
   update each entry's status (`Notes only` → `Early draft` → linked) as
   chapters get written, rather than treating this as a changelog.
 
