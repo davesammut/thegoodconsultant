@@ -3,5 +3,5 @@
 window.SITE_CONFIG = {
   email: "davesammut@gmail.com",
   linkedin: "https://www.linkedin.com/in/dave-sammut-2559453/",
-  github: ""
+  github: "https://github.com/davesammut"
 };
