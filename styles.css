@@ -147,6 +147,12 @@ ul { padding-left: 1.2rem; }
   font-size: clamp(1.2rem, 2vw, 1.55rem);
   color: var(--ink-2);
 }
+.hero-emphasis {
+  max-width: 730px;
+  font-family: "Manrope", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
 .hero-actions {
   display: flex;
   flex-wrap: wrap;

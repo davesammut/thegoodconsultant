@@ -4,9 +4,11 @@ A static, responsive website ready for GitHub Pages — a digital calling
 card for Dave Sammut, independent technology advisor to founders, investors,
 boards, and CTOs. It's built to reinforce reputation, not generate leads:
 the homepage is short, Thinking and the Book carry most of the site's
-weight, and Advisory is deliberately the smallest section on the page. It
+weight, and the "Relationships" section (`#relationships` — deliberately
+framed as relationships, not services) is the smallest on the page. It
 intentionally does not market architecture, delivery, or transformation
-services.
+services, and stays clear of anything that could read as competing with
+Equal Experts.
 
 ## Files
 
