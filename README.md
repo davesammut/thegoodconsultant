@@ -35,8 +35,10 @@ These are deliberately separate:
   observations, stories, and patterns. They are not chapters and don't need
   to connect to each other.
 - **The Book** (`book.html` + `book/`) is a single structured manuscript,
-  *The Good Consultant*, organised as a five-part journey (Becoming → Seeing
-  → Influencing → The Craft → Leaving), not a reference list. Each chapter
+  *The Good Consultant*, organised as a six-part journey following the
+  lifecycle of a consulting relationship (The Invitation → Joining →
+  Understanding → Creating Change → The Human Side of Engineering →
+  Leaving), not a reference list. Each chapter
   has a compelling title plus, where the title doesn't already say it, an
   italic subtitle naming the underlying concept (e.g. "Trust Is Your First
   Deliverable" / *Trust*) and a guiding question it answers. Most chapters
