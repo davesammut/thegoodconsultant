@@ -15,7 +15,7 @@ Equal Experts.
 - `index.html` — homepage
 - `speaking.html` — talks, podcasts, workshops, and leadership sessions
 - `book.html` — the living manuscript for *The Good Consultant*
-- `book/` — full chapter drafts (currently `fire-seeking.html`, `storytelling.html`, and `kind-is-not-good.html`)
+- `book/` — full chapter drafts (currently `fire-seeking.html`, `storytelling.html`, `kind-is-not-good.html`, and `why-good-developers-behave-badly.html`)
 - `styles.css` — all styling
 - `script.js` — navigation, animations, and link behaviour
 - `site.config.js` — your email, LinkedIn, and GitHub links

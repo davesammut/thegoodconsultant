@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A chapter from The Good Consultant on why developer dysfunction is usually a systems problem wearing a people problem's clothes." />
+  <title>Why Good Developers Behave Badly — The Good Consultant</title>
+  <link rel="canonical" href="https://thegoodconsultant.com/book/why-good-developers-behave-badly.html" />
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark">GC</span>
+        <span class="brand-text">The Good Consultant</span>
+      </a>
+      <a class="back-link" href="../book.html">All chapters</a>
+    </div>
+  </header>
+  <main class="container article-page">
+    <p class="eyebrow">The Good Consultant · Part V: The Human Side of Engineering · Early draft</p>
+    <h1>Why Good Developers Behave Badly</h1>
+    <p class="chapter-concept">Developer Dysfunction</p>
+    <p class="meta">Most developer dysfunction isn't a people problem. It's a systems problem.</p>
+
+    <p class="article-kicker">Story</p>
+    <p class="large-copy">For three years, I made a habit of pair programming with engineering teams across a wide range of organisations — some healthy, some clearly under strain, most somewhere in between. I didn't set out to study anything in particular. I simply wanted to stay close to the work, rather than talking about it from a safe distance.</p>
+    <p>What I noticed first wasn't code. It was behaviour.</p>
+    <p>In one team, a senior engineer barely spoke unless directly asked a question, and even then answered in the fewest words possible. In another, an equally experienced engineer dominated every conversation, talked over junior colleagues, and treated disagreement as something to be won rather than explored. My first instinct, the one I'm slightly embarrassed by now, was to file both of these under personality. One quiet, one difficult. Some people are just like that, I told myself.</p>
+    <p>Then I met the quiet engineer again, a year later, at a different organisation. Same person. Completely different behaviour. He asked questions freely, disagreed openly, occasionally even led the conversation. Nothing about him had changed. Everything about his environment had.</p>
+    <p>That was the moment the story I'd been telling myself stopped making sense.</p>
+
+    <p class="article-kicker">Observation</p>
+    <p>Once I noticed that, I couldn't unnotice it. I started paying attention to the same behaviours across different teams, and asking a different question about each one. Not "what's wrong with this developer", but "what kind of environment would make this behaviour reasonable?"</p>
+    <p>The list of behaviours I began tracking was long, and none of them were rare: reluctance to ask for help, interrupting colleagues mid-thought, dominating discussions, quietly disengaging from a conversation the moment it stopped being about their own work, perfectionism that never quite let a piece of work be finished, refactoring that continued long after it had stopped adding value, an unwillingness to challenge a senior colleague's decision even when the decision was clearly wrong, and its opposite — a compulsion to challenge everything, regardless of whether the challenge was warranted. Poor listening. Overconfidence dressed up as decisiveness.</p>
+    <p>On their own, each of these looks like a character flaw. Seen across enough teams, a different pattern starts to emerge — one that has very little to do with character. The engineer who won't ask for help is usually working somewhere that treats questions as a sign of weakness. The one who dominates every discussion has often learned, the hard way, that silence gets ignored. The perfectionist is frequently someone who was punished for shipping something imperfect, once, and never forgot it.</p>
+    <p>These weren't personality traits I was observing. They were adaptations.</p>
+
+    <p class="article-kicker">Principle</p>
+    <p>Good developers don't wake up intending to become difficult colleagues. Nobody sets out to be the person who talks over everyone else, or the person too afraid to ask a basic question. People optimise for the systems they work within, whether or not they're aware they're doing it.</p>
+    <p>When an organisation rewards heroics, heroes appear — engineers who quietly build up specialist knowledge nobody else has, because being indispensable feels safer than being replaceable. When uncertainty is punished, questions disappear, because admitting you don't know something starts to feel like admitting weakness. When technical leadership is absent, everyone quietly invents their own standard, and disagreements about "the right way to do it" become disagreements about identity rather than engineering. When local optimisation is rewarded — my velocity, my sprint, my code review turnaround — collaboration declines, because helping someone else's work looks like time taken away from your own.</p>
+    <p>None of this requires a single dysfunctional individual. It only requires an environment that consistently rewards the wrong thing. Developer dysfunction, in the cases I've seen, is almost always organisational dysfunction, made visible one person at a time.</p>
+
+    <p class="article-kicker">Approach</p>
+    <p>Pair programming turned out to be an unusually good lens for all of this, though not for the reason I expected going in. It has nothing to do with two people sharing a keyboard, and everything to do with the fact that working closely alongside another person, for hours at a time, makes it very difficult to hide how you actually think.</p>
+    <p>Working alone, an engineer's curiosity, humility, ego, confidence and sense of ownership stay mostly private. In a pair, they become visible almost immediately. I stopped paying much attention to the quality of the code being written, and started paying much closer attention to the quality of the relationship producing it, because the second reliably predicted the first.</p>
+    <p>The healthiest pairs I sat with shared a few habits that had nothing to do with technical skill. They listened before responding, rather than waiting for their turn to speak. They challenged each other's ideas, but did so in a way that felt like genuine curiosity rather than point-scoring. They admitted uncertainty out loud, without treating it as a confession. They moved easily between the fine detail of the code and the wider shape of the problem, checking in with each other at both levels. Most of all, they seemed to be learning something, together, in real time.</p>
+    <p>The unhealthy pairs displayed almost the exact opposite: one person talking, the other silently following; disagreements that went unspoken until they resurfaced later as passive resistance; confident answers offered instantly, to questions that deserved a pause. What struck me, every time, was that these weren't worse developers. They were often exactly as capable, technically, as the people in the healthy pairs. The difference wasn't skill. It was what the surrounding conditions had taught them was safe to do.</p>
+
+    <div class="field-note">
+      <span class="field-note-label">Field Note</span>
+      <p>One of the strongest predictors of a successful pairing session wasn't technical ability. It was whether both people left believing they had contributed something and learned something.</p>
+    </div>
+    <div class="field-note">
+      <span class="field-note-label">Field Note</span>
+      <p>The pairs who disagreed with each other the most openly were, almost without exception, the pairs who trusted each other the most.</p>
+    </div>
+
+    <h2>What leadership actually needs to do</h2>
+    <p>Most of the organisations I worked with had already tried to fix these patterns before I arrived, and almost all of them had reached for the same lever: process. A new stand-up format. A new tool for tracking code review turnaround. A new metric for pairing frequency. Sensible ideas, usually, and almost always insufficient.</p>
+    <p>What actually seemed to change behaviour was rarely a process. It was leadership — specifically, clear technical leadership that people trusted enough to disagree with, psychological safety that made admitting uncertainty feel safe rather than risky, boundaries clear enough that people weren't left guessing at what was expected of them, and something I'd call permission to learn: an explicit, repeated signal that not knowing something yet was a normal part of the job, not a gap to hide.</p>
+    <p>Where that kind of leadership existed, the behaviours I'd catalogued earlier — the arrogance, the stubbornness, the disengagement — became far rarer. And where they did still appear, they read less like character flaws and more like symptoms of uncertainty that hadn't yet found anywhere safe to go.</p>
+
+    <h2>Where AI fits</h2>
+    <p>It would be a strange chapter about engineering collaboration in this decade if it didn't mention AI, so it's worth being precise about what's actually changing and what isn't.</p>
+    <p>AI is changing how software gets written, quickly and substantially. It can explain a confusing piece of code faster than a colleague can, generate a first draft of a solution, review a pull request for obvious mistakes, and write a reasonable set of tests. All of that is genuinely useful, and none of it is going away.</p>
+    <p>What it hasn't changed, and I don't think it's going to, is human collaboration itself. AI cannot create trust between two engineers. It cannot create humility, or curiosity, or the kind of psychological safety that lets someone say "I don't understand this" out loud in a room full of people more senior than them. It cannot create shared ownership of a decision. Those things were never technical problems, so a technical tool was never going to solve them.</p>
+    <p>If anything, I think they matter more now than they did before. As the mechanical act of writing code gets easier and faster, the harder, more human parts of the job — judgement, collaboration, knowing which problem is actually worth solving — become the parts that were worth the fee all along.</p>
+
+    <p class="article-kicker">Reflection</p>
+    <p>Looking back, those three years were never really about pair programming. Pairing was simply the closest seat I could find to watch something more interesting: how people learn together, under real conditions, when there's nowhere to hide.</p>
+    <p>Technology has changed enormously since I started that observation. The behaviour I watched changed far more slowly, if it changed at all, because it was never really about the technology in the first place.</p>
+    <p>So the question I'd now put to any organisation worried about the way its engineers behave isn't "how do we make our developers write better code?" It's "what kind of environment are we asking them to write that code in?" The first question sends you looking for better developers. The second sends you looking in the mirror, which is usually where the more useful answer is waiting.</p>
+
+    <p class="article-kicker">Questions to leave with</p>
+    <ul>
+      <li>Which behaviours in my team are symptoms rather than causes?</li>
+      <li>What behaviours have become normal simply because nobody challenges them?</li>
+      <li>Does our environment reward learning or certainty?</li>
+      <li>What would an outside observer notice that we've stopped seeing?</li>
+    </ul>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© The Good Consultant</p>
+      <a class="back-link" href="../book.html">Back to the book</a>
+    </div>
+  </footer>
+</body>
+</html>
