@@ -15,7 +15,7 @@ Equal Experts.
 - `index.html` — homepage
 - `speaking.html` — talks, podcasts, workshops, and leadership sessions
 - `book.html` — the living manuscript for *The Good Consultant*
-- `book/` — full chapter drafts (currently `fire-seeking.html`, `storytelling.html`, `kind-is-not-good.html`, and `why-good-developers-behave-badly.html`)
+- `book/` — full chapter drafts (currently `why-they-called-you.html`, `fire-seeking.html`, `storytelling.html`, `kind-is-not-good.html`, and `why-good-developers-behave-badly.html`)
 - `styles.css` — all styling
 - `script.js` — navigation, animations, and link behaviour
 - `site.config.js` — your email, LinkedIn, and GitHub links
@@ -46,20 +46,27 @@ These are deliberately separate:
   `book/fire-seeking.html`) — but that's a pattern, not a rule;
   `book/storytelling.html` and `book/kind-is-not-good.html` are straight
   essays, and that's fine too.
-  `book.html` lists 25 entries as a living manuscript: 18 original chapters,
-  6 "Notes only" placeholders (Comfortable Being Uncomfortable, Finding the
-  Space to Contribute, Reputation Compounds, Why They Called You, Promises
-  and Guarantees, The Discovery Before Discovery — the last three added to
-  give Part I a complete pre-sales arc: understanding the referral, finding
-  the underlying problem, navigating what to promise, and shaping a
-  responsible engagement before it's sold), and one deliberate crossover —
-  the Thinking essay "Every Organisation Tells Itself a Story" is also
-  listed in Part III, linked back to `posts/organisational-story.html`
-  and labelled "Published in Thinking" rather than a book-specific status.
-  That crossover was requested explicitly; if it turns out not to be wanted,
-  it's a one-line removal. Update each entry's status (`Notes only` →
-  `Early draft` → linked) as chapters get written, rather than treating this
-  as a changelog. Also introduces a recurring **Field Note** device
+  `book.html` lists 25 entries as a living manuscript: 5 with a full online
+  chapter drafted and linked (`why-they-called-you.html`, `fire-seeking.html`,
+  `storytelling.html`, `kind-is-not-good.html`,
+  `why-good-developers-behave-badly.html`), 19 still "Notes only" — including
+  three added to give Part I a complete pre-sales arc (Promises and
+  Guarantees, The Discovery Before Discovery, plus Why They Called You
+  before it was drafted) and three newer placeholders elsewhere
+  (Comfortable Being Uncomfortable, Finding the Space to Contribute,
+  Reputation Compounds) — and one deliberate crossover: the Thinking essay
+  "Every Organisation Tells Itself a Story" is also listed in Part III,
+  linked back to `posts/organisational-story.html` and labelled "Published
+  in Thinking" rather than a book-specific status. That crossover was
+  requested explicitly; if it turns out not to be wanted, it's a one-line
+  removal. Note also that the online chapters are deliberately abbreviated
+  versions of the eventual book chapters — principle, selected observation,
+  and reflection, not the full stories, Field Notes, and worked examples
+  the print book will contain (see `book/why-they-called-you.html` for the
+  clearest example of that restraint). Update each entry's status
+  (`Notes only` → `Early draft` → linked) as chapters get written, rather
+  than treating this as a changelog. Also introduces a recurring
+  **Field Note** device
   (`.field-note` in `styles.css`) — short, standalone observations distinct
   from ordinary chapter prose; see `book/why-good-developers-behave-badly.html`
   for the pattern, and the explainer section on `book.html` itself.
