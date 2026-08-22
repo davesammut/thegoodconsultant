@@ -36,19 +36,29 @@ These are deliberately separate:
   to connect to each other.
 - **The Book** (`book.html` + `book/`) is a single structured manuscript,
   *The Good Consultant*, organised as a six-part journey following the
-  lifecycle of a consulting relationship (The Invitation → Joining →
-  Understanding → Creating Change → The Human Side of Engineering →
-  Leaving), not a reference list. Each chapter
-  has a compelling title plus, where the title doesn't already say it, an
-  italic subtitle naming the underlying concept (e.g. "Trust Is Your First
-  Deliverable" / *Trust*) and a guiding question it answers. Most chapters
-  follow the same five-part rhythm: Story → Observation → Principle →
-  Approach → Reflection (see `book/fire-seeking.html`) — but that's a
-  pattern, not a rule; `book/storytelling.html` and `book/kind-is-not-good.html`
-  are straight essays, and that's fine too.
-  `book.html` lists all 18 working chapter titles as a living manuscript —
-  update each entry's status (`Notes only` → `Early draft` → linked) as
-  chapters get written, rather than treating this as a changelog.
+  lifecycle of a consulting relationship (Before the Contract → Joining →
+  Understanding → Helping People Think → Creating Change → Leaving), not a
+  reference list. Each chapter has a compelling title plus, where the title
+  doesn't already say it, an italic subtitle naming the underlying concept
+  (e.g. "Trust Is Your First Deliverable" / *Trust*) and a guiding question
+  it answers. Most chapters follow the same five-part rhythm: Story →
+  Observation → Principle → Approach → Reflection (see
+  `book/fire-seeking.html`) — but that's a pattern, not a rule;
+  `book/storytelling.html` and `book/kind-is-not-good.html` are straight
+  essays, and that's fine too.
+  `book.html` lists 22 entries as a living manuscript: 18 original chapters,
+  3 new "Notes only" placeholders (Comfortable Being Uncomfortable, Finding
+  the Space to Contribute, Reputation Compounds), and one deliberate
+  crossover — the Thinking essay "Every Organisation Tells Itself a Story"
+  is also listed in Part III, linked back to `posts/organisational-story.html`
+  and labelled "Published in Thinking" rather than a book-specific status.
+  That crossover was requested explicitly; if it turns out not to be wanted,
+  it's a one-line removal. Update each entry's status (`Notes only` →
+  `Early draft` → linked) as chapters get written, rather than treating this
+  as a changelog. Also introduces a recurring **Field Note** device
+  (`.field-note` in `styles.css`) — short, standalone observations distinct
+  from ordinary chapter prose; see `book/why-good-developers-behave-badly.html`
+  for the pattern, and the explainer section on `book.html` itself.
 
 ## Personalise it
 
