@@ -46,11 +46,15 @@ These are deliberately separate:
   `book/fire-seeking.html`) — but that's a pattern, not a rule;
   `book/storytelling.html` and `book/kind-is-not-good.html` are straight
   essays, and that's fine too.
-  `book.html` lists 22 entries as a living manuscript: 18 original chapters,
-  3 new "Notes only" placeholders (Comfortable Being Uncomfortable, Finding
-  the Space to Contribute, Reputation Compounds), and one deliberate
-  crossover — the Thinking essay "Every Organisation Tells Itself a Story"
-  is also listed in Part III, linked back to `posts/organisational-story.html`
+  `book.html` lists 25 entries as a living manuscript: 18 original chapters,
+  6 "Notes only" placeholders (Comfortable Being Uncomfortable, Finding the
+  Space to Contribute, Reputation Compounds, Why They Called You, Promises
+  and Guarantees, The Discovery Before Discovery — the last three added to
+  give Part I a complete pre-sales arc: understanding the referral, finding
+  the underlying problem, navigating what to promise, and shaping a
+  responsible engagement before it's sold), and one deliberate crossover —
+  the Thinking essay "Every Organisation Tells Itself a Story" is also
+  listed in Part III, linked back to `posts/organisational-story.html`
   and labelled "Published in Thinking" rather than a book-specific status.
   That crossover was requested explicitly; if it turns out not to be wanted,
   it's a one-line removal. Update each entry's status (`Notes only` →
