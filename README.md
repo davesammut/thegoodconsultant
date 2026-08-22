@@ -27,6 +27,23 @@ Equal Experts.
 
 - **Speaking** (`speaking.html`) — illustrative talks, podcasts, and workshops only.
 
+## Notebook curation
+
+`posts/index.html` deliberately lists only 3 posts at a time — currently a
+single developing thread (`organisation-decide-as-fast-as-ai.html` →
+`reversibility.html` → `judgement-becomes-expensive.html`), not an archive
+of every post ever written. Seven earlier posts still exist as real files
+(`organisational-story.html`, `workshop-that-failed.html`,
+`architecture-diagrams-lie.html`, `fracture-planes.html`,
+`ai-adoption.html`, `technical-due-diligence.html`,
+`good-consulting.html`) and are reachable by direct link, but are
+intentionally unlisted — some may return to the Notebook, some may become
+Book material instead. Don't delete them; just leave them unlisted unless
+asked to bring one back. Note: the homepage's Thinking teaser (`index.html`)
+still references three of the now-unlisted posts — that's a known,
+deliberate gap since this curation pass was scoped to `posts/index.html`
+only.
+
 ## Thinking vs. the Book
 
 These are deliberately separate:

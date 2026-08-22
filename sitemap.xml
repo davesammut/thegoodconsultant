@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://thegoodconsultant.com/</loc></url>
-  <url><loc>https://thegoodconsultant.com/speaking.html</loc></url>
   <url><loc>https://thegoodconsultant.com/book.html</loc></url>
   <url><loc>https://thegoodconsultant.com/book/why-they-called-you.html</loc></url>
   <url><loc>https://thegoodconsultant.com/book/fire-seeking.html</loc></url>
@@ -9,11 +8,7 @@
   <url><loc>https://thegoodconsultant.com/book/kind-is-not-good.html</loc></url>
   <url><loc>https://thegoodconsultant.com/book/why-good-developers-behave-badly.html</loc></url>
   <url><loc>https://thegoodconsultant.com/posts/index.html</loc></url>
-  <url><loc>https://thegoodconsultant.com/posts/organisational-story.html</loc></url>
-  <url><loc>https://thegoodconsultant.com/posts/workshop-that-failed.html</loc></url>
-  <url><loc>https://thegoodconsultant.com/posts/architecture-diagrams-lie.html</loc></url>
-  <url><loc>https://thegoodconsultant.com/posts/fracture-planes.html</loc></url>
-  <url><loc>https://thegoodconsultant.com/posts/ai-adoption.html</loc></url>
-  <url><loc>https://thegoodconsultant.com/posts/technical-due-diligence.html</loc></url>
-  <url><loc>https://thegoodconsultant.com/posts/good-consulting.html</loc></url>
+  <url><loc>https://thegoodconsultant.com/posts/organisation-decide-as-fast-as-ai.html</loc></url>
+  <url><loc>https://thegoodconsultant.com/posts/reversibility.html</loc></url>
+  <url><loc>https://thegoodconsultant.com/posts/judgement-becomes-expensive.html</loc></url>
 </urlset>
