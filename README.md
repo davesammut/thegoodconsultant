@@ -1,14 +1,25 @@
 # The Good Consultant website
 
-A static, responsive website ready for GitHub Pages — a digital calling
-card for Dave Sammut, independent technology advisor to founders, investors,
-boards, and CTOs. It's built to reinforce reputation, not generate leads:
-the homepage is short, Thinking and the Book carry most of the site's
-weight, and the "Relationships" section (`#relationships` — deliberately
-framed as relationships, not services) is the smallest on the page. It
-intentionally does not market architecture, delivery, or transformation
-services, and stays clear of anything that could read as competing with
-Equal Experts.
+A static, responsive website ready for GitHub Pages — the professional
+home and body of work of Dave Sammut: technology consultant, practitioner,
+writer, and speaker. It's deliberately not a services or advisory sales
+site — there is no services list, no "hire me" CTA, and no commercial
+enquiry channel. The homepage flow is Hero → Thinking (Notebook) → Book →
+Speaking → About → Elsewhere (LinkedIn only). The governing principle:
+show the experience, don't sell it. It intentionally does not market
+architecture, delivery, or transformation services, and stays clear of
+anything that could read as competing with Equal Experts.
+
+**Note on scope**: an earlier iteration of this site had an explicit
+"Relationships" section (Founder Advisor, Board & NED Advisor, VC Advisor,
+Executive Thinking Partner) as its commercial core, and a separate task
+had deliberately unlisted `speaking.html` from all navigation pending
+review. Both were reversed by explicit instruction in a later session —
+Relationships was removed entirely, and Speaking was made discoverable
+again via nav, footer, and a homepage section. `speaking.html`'s own
+content still contains literal "Placeholder event · Placeholder date"
+labels throughout — it was never actually curated before being re-exposed.
+Worth cleaning up before treating the site as finished.
 
 ## Files
 
@@ -18,7 +29,7 @@ Equal Experts.
 - `book/` — full chapter drafts (currently `why-they-called-you.html`, `fire-seeking.html`, `storytelling.html`, `kind-is-not-good.html`, and `why-good-developers-behave-badly.html`)
 - `styles.css` — all styling
 - `script.js` — navigation, animations, and link behaviour
-- `site.config.js` — your email, LinkedIn, and GitHub links
+- `site.config.js` — your LinkedIn and GitHub links
 - `posts/` — Thinking: short, independent essays (a notebook, not a blog)
 - `assets/favicon.svg` — site icon
 - `robots.txt`, `sitemap.xml` — search engine discovery
@@ -94,11 +105,14 @@ Open `site.config.js` and add your real links:
 
 ```js
 window.SITE_CONFIG = {
-  email: "davesammut@gmail.com",
   linkedin: "https://www.linkedin.com/in/dave-sammut-2559453/",
   github: "https://github.com/davesammut"
 };
 ```
+
+There's deliberately no `email` field — the site doesn't present a direct
+commercial enquiry channel. LinkedIn is the sole external contact route
+(see the closing "Continue the conversation" section in `index.html`).
 
 Edit the text directly in `index.html`.
 
